@@ -1,0 +1,22 @@
+GET http://localhost:5001/users
+
+###
+POST http://localhost:5001/users
+Content-Type: application/json
+
+{
+    "name": "haqi",
+    "email": "hq@gmail.com",
+    "gender": "Male"
+}
+
+###
+PATCH  http://localhost:5001/users/4
+Content-Type: application/json
+
+{
+    "name": "nanskie"
+}
+
+###
+DELETE http://localhost:5001/users/5
